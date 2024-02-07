@@ -1,0 +1,266 @@
+/* body {
+    background-color: rgb(70, 2, 70);
+} */
+
+body {
+   
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(./3685070.jpg);
+    height: 100px;
+
+
+}
+
+.main{
+    overflow: hidden;
+}
+
+
+
+
+.navitem img {
+    width: 15vw;
+    height: 35vh;
+    position: relative;
+    
+    
+    
+}
+
+.navbar {
+    list-style-type: none;
+    border: 2px solid white;
+    border-radius: 90px;
+    margin: 20px;
+    background-image: url(./3685070.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 25px;
+    position: relative;
+    top: 5px;
+    overflow: hidden;
+
+}
+
+li.navitem {
+    float: left;
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navitem a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: 70%;
+}
+
+li.navitem a:hover {
+    background-color: blanchedalmond;
+    border-radius: 2px solid white;
+    border-radius: 5px;
+    color: black;
+}
+
+
+.build {
+    display: block;
+    color: white;
+    font-size: 15px;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    margin-right: 10px;
+
+}
+
+
+
+
+
+
+.head2 {
+    color: white;
+    /* font-weight: bold; */
+    margin-left: 20px;
+    font-size: 35px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 13px;
+    margin-right: 800px;
+}
+
+
+.scriptjs{
+    color: black;
+}
+
+.description {
+
+    height: 20vh;
+    width: 90vw;
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    left: 40px;
+
+
+}
+
+.button {
+    display: flexbox;
+    margin-left: 10px;
+
+}
+
+
+.download-button,
+.github {
+
+
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 15px;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+
+
+}
+
+.download-button:hover {
+    background-color:white;
+    color: black;
+    border-radius: 2px solid white;
+    border-radius: 5px;
+}
+
+
+
+
+
+.github:hover {
+    background-color: white;
+    color: black;
+    border-radius: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.myskill1 {
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    text-decoration: underline 2px;
+    text-underline-offset: 0.7em;
+    text-transform: capitalize;
+
+
+}
+
+
+
+
+.project1 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    position: relative;
+    text-decoration: underline 2px;
+    text-underline-offset: 0.7em;
+    text-transform: capitalize;
+
+}
+
+.flex,.skills {
+    display: flex;
+    width: 100%;
+    font-size: 100px;
+    position: relative;
+    top: 30px;
+}
+
+
+.myskills,.language{
+    
+    
+    width: 25vw;
+    height: 20vh;
+    
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.frontend,.languname{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.containfrontend,.contain_name{
+    font-size: 14px;
+    color: #555;
+}
+.project-box {
+    width: 500px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.project-description {
+    font-size: 14px;
+    color: #555;
+}
+
+#footer {
+    color: white;
+    width: 100%;
+    height: 10px;
+
+}
+
+.copyright {
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: right;
+    color: black;
+}
